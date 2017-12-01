@@ -1,1 +1,31 @@
-demo-lwtag
+//tao lightweight tag 
+
+$ git tag v1.1-lw
+
+show cac tag: $ git tag
+
+//show commit voi tag :
+ 
+$ git log --pretty=oneline
+
+//chi dinh 1 commit nao do lam tag
+$ git tag -a v0.1 9fceb01...
+
+//push tag len server
+$ git push origin [tagname]
+ex: git push duy v1.0
+
+//push all
+$ git push origin --tags
+
+//checking out tags, ( tach ra nhanh rieng tu 1 tag nao do de lam viec)  
+$ git checkout -b [ten_nhanh]version1 v1.0
+
+
+
+//delete tag on local
+$ git tag -d [tag_name]
+
+// delete tag on server
+
+$ git pust [remote_name] --delete [tag_name]

@@ -1,0 +1,7 @@
+// tao tag :
+$ git tag -a v1.0 -m "my version 1.0"
+$ git tag
+
+// show tag 
+
+$ git show v1.4
