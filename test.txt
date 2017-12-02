@@ -1,1 +1,13 @@
-hihi haha
+// tao nhanh
+$ git branch [ten_nhanh]
+ex:
+$ git branch testing
+
+// kiem tra nhanh
+$ git branch
+
+$ git log --oneline --decorate
+
+// chuyen nhanh
+$ git checkout testing
+ 
