@@ -1,1 +1,15 @@
-thay doi lan 2
+hihi xin chao hihi xin chao
+// xem danh sach cac nhanh
+$ git branch
+
+// xem commit cuoi cung cua cac nhanh
+$ git branch -v
+
+// xem nhanh nao co duoc merge vao danh hien tai
+$ git branch --merged
+
+// xem nhanh nao chua merged vao nhanh hien tai
+$ git branch --no-merged
+
+// xoa nhanh
+$ git branch -d tennhanh
