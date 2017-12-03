@@ -21,8 +21,6 @@ $ git remote add <shortname> url
 
 // show thong tin origin
 git remote show origin
-//hihi
-
 
 
 
