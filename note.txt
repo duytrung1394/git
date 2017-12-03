@@ -10,7 +10,16 @@ $ git checkout -b serverfix origin/serverfix
 // push nhanh minh muon
 $ git push origin ten_nhanh
 
-/theem
+// de xoa branch
+$ git branch -d ten_branch
+
+//de delete branch tren remote
+$ git push origin --delete ten_branch
+
+//de lien ket 1 kho co san voi remote 
+$ git remote add <shortname> url
+
+
 
 
 
