@@ -1,1 +1,9 @@
-thu
+//doi ten origin 
+$ git clone -o duytrung url
+
+//luu cache de ko dang nhap uname pass khi push
+$ git config --global credential.helper cache
+
+//checkout 1 nhanh tren server ve de lam viec
+$ git checkout -b serverfix origin/serverfix
+
