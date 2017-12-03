@@ -19,6 +19,9 @@ $ git push origin --delete ten_branch
 //de lien ket 1 kho co san voi remote 
 $ git remote add <shortname> url
 
+// show thong tin origin
+git remote show origin
+
 
 
 
