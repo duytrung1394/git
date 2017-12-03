@@ -7,3 +7,8 @@ $ git config --global credential.helper cache
 //checkout 1 nhanh tren server ve de lam viec
 $ git checkout -b serverfix origin/serverfix
 
+// push nhanh minh muon
+$ git push origin ten_nhanh
+
+
+
