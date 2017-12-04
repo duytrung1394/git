@@ -1,0 +1,26 @@
+//de luu lai nhung gi dang lam gio o nhánh hien tai
+git stash or git stash save
+
+// de xem danh sach cac stash 
+git stash list
+
+// de apply 1 stash
+git stash apply stash@{1}
+
+//nêu không chi rõ stash nào thì nó lay stash sau cùng
+git stash apply
+
+// de apply cho ca index, khi dã add file sua doi vào vùng stage(index)
+$ git stash apply -index
+
+//de xóa stash
+$ git stash drop stash@{0}
+
+// stash ca các file chua tracked
+ --include-untracked or -u
+
+// xoa tat ca untracked file, không remote file thuoc ignore
+$ git clean -f -d 
+
+// -x de xóa luôn ca file thuoc ignore
+
