@@ -11,3 +11,4 @@ $ git log --oneline --decorate
 // chuyen nhanh
 $ git checkout testing
  
+123
